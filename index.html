@@ -3,23 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Christmas Landing Page</title>
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <header>
       <nav>
         <div class="christmas">
-          <img src="./imgs/svg/wwwww.svg" alt="santa" />
+          <img src="./imgs/svg/wwwww.svg" alt="santa" /> christmas
         </div>
-        <ul>
-          <li><a href="#" class="active">Home</a></li>
+        <ul class="nav-menu">
+          <li>
+            <a href="#" class="active">Home</a>
+          </li>
           <li><a href="#">Celebrate</a></li>
           <li><a href="#">Gifts</a></li>
           <li><a href="#">New</a></li>
-          <li><button class="theme-toggle">🌙</button></li>
+          <li>
+            <!-- <button class="theme-toggle">
+              <img src="./imgs/svg/bx-moon.svg.svg" alt="moon" />
+            </button> -->
+            <div class="nav-actions">
+              <button class="theme-toggle">
+                <img src="./imgs/svg/bx-moon.svg.svg" alt="moon" />
+              </button>
+              <!-- Tun rejimi -->
+              <button class="icon-btn grid-menu">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+              <!-- Grid menyu -->
+            </div>
+          </li>
         </ul>
       </nav>
     </header>
+    <main class="hero">
+      <div class="hero-image">
+        <img src="./imgs/svg/santa.svg" alt="Christmas Tree and Santa" />
+      </div>
+
+      <div class="hero-content">
+        <h1>
+          Merry Christmas and <br />
+          Happy New Year!
+        </h1>
+        <p>
+          Christmas and a new year is about to begin, all good wishes and
+          successes.
+        </p>
+        <a href="#" class="btn">Get Started</a>
+      </div>
+    </main>
   </body>
 </html>
