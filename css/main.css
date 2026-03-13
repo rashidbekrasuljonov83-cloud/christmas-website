@@ -1,0 +1,42 @@
+:root {
+  --body-bg: white;
+  --text-color: black;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--body-bg);
+  color: var(--text-color);
+  height: 100%;
+}
+.conteiner {
+  height: 100%;
+  max-width: 1280px;
+}
+/* .home {
+  display: flex;
+  align-items: center;
+} */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;S
+  gap: 48px;
+}
+/* .christmas {
+  height: 100%;
+  gap: 48px;
+  padding: 24px 156px;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  border: 1px solid red;
+} */
+.qqq {
+  display: flex;
+  align-items: center;
+}
